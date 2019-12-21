@@ -1,3 +1,5 @@
+// VARIABLE DECLARATION
+
 var increment_meat = document.querySelector(".incr1")
 var decrement_meat = document.querySelector(".incr2")
 var number_meat = document.querySelector(".num_meat");
@@ -23,6 +25,8 @@ var cutlery_idk = document.querySelector("#cutlery_id");
 var n = 0;
 var m = 0;
 var l = 0;
+
+// INCREMENTING AND DECREMENTING BUTTONS FOR NUMBER OF PEOPLE
 increment_meat.addEventListener("click", function () {
   n++;
   number_meat.style.color = "red"
@@ -56,7 +60,7 @@ decrement_vegan.addEventListener("click", function () {
   }
   number_vegan.textContent = l;
 });
-
+// MAIN GROCERY LIST OBJECT
 var GrillIngridients = {
 
   Fleisch: 350,
@@ -71,7 +75,7 @@ var GrillIngridients = {
   Tofuwurst: 2,
   Seitan_Tofusteak: 300
 }
-
+// THE WISE MAGIC SPATULA THAT CALCULATES EVERYTHING :D
 
 spatula.addEventListener("click", function () {
   list.style.height = "38%";

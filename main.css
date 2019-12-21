@@ -1,3 +1,6 @@
+/* CSS RESET */
+
+
 html,
 body,
 div,
@@ -129,7 +132,7 @@ table {
 }
 
 
-
+/* GENERAL STYLING */
 
 html,
 body {
@@ -153,7 +156,8 @@ body {
     justify-items: flex-start;
     
 }
-
+/* DEVIDED THE  GRILL IN 4 COMPONENT PARTS */
+/* FIRST UPPER PART OF THE GRILL */
 #first_part {
     width: 40%;
     height: 17%;
@@ -219,7 +223,7 @@ body {
 .lines2 {
     border-left: 5px solid black;
 }
-
+/* SECOND PART OF THE GRILL CONTAINING THE BODY */
 #second_part {
     width: 56%;
     height: 16%;
@@ -361,7 +365,7 @@ body {
 font-size: 35px;
 color: black;
 }
-
+/* THIRD PART */
 #third_part {
     width: 50%;
     height: 17%;
@@ -371,7 +375,7 @@ color: black;
     padding: 0;
 
 }
-
+/* FOURTH PART CONTAINING THE LEGS */
 #forth_part {
     width: 50%;
     height: 4%;
